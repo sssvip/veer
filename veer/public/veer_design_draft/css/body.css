@@ -1,0 +1,16 @@
+body{background-image: url(../img/back.jpg);background-repeat:no-repeat;background-attachment:fixed;font-family: 微软雅黑;font-size: 30px;color: white;margin:0px; padding:0px; overflow:hidden;text-align: center;}
+#container{
+	background-color:rgba(70,161,138,0.6); /* IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂，但解析为透明 */
+	height: 1000px;width:100%;padding-top: 50px; }
+	input{font-size: 30px;color: white;margin-bottom:10px;height:40px;}
+	#username,#password,#password1 {background-color:rgba(175,218,205,0.6); border: 0px white solid; border-radius: 3px;}
+	#submit {margin:10px;width:150px;background-color:white;color:green;border: 0px white solid; border-radius: 3px;}
+	#submit:hover {cursor: pointer;color: red;}
+
+	#register {margin:10px;width:150px;height:40px;background-color:white;color:green;border: 0px white solid; border-radius: 3px;}
+	#register:hover {cursor: pointer;color: red;}
+
+	#reset {width:150px;background-color:white;color:green;border: 0px white solid; border-radius: 3px;}
+	#reset:hover {cursor: pointer;color: red;}
+	#login,#online{color: #cc0000;}
+	img{width:30px;height:30px;margin-right:6px;}
